@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(60deg, #CCFFFF, #FFCCCC);
+    font-size: 18px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header {
+    text-align: center;
+    margin: 25px;
+}
+
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    min-height: 100vh;
+}
+
+main a {
+    display: block;
+}
+
+main h2, p, a {
+    text-align: center;
+}
+
+main h2 {
+    margin: 15px;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3, 150px);
+    align-content: center;
+    justify-content: center;
+}
