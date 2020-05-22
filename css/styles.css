@@ -5,9 +5,10 @@
 }
 
 body {
-    background: linear-gradient(60deg, #CCFFFF, #FFCCCC);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     font-size: 18px;
     font-family: 'Balsamiq Sans', cursive;
+    color: #FFF;
 }
 
 header {
@@ -25,10 +26,12 @@ main {
 
 main a {
     display: block;
+    color: #FFF;
 }
 
 main h2, p, a {
     text-align: center;
+    padding: 5px;
 }
 
 main h2 {
@@ -42,4 +45,12 @@ main h2 {
     grid-template-columns: repeat(3, 150px);
     align-content: center;
     justify-content: center;
+}
+
+.grid img {
+    transition: transform 1s;
+}
+
+.grid img:hover {
+    transform: scale(1.5);
 }
